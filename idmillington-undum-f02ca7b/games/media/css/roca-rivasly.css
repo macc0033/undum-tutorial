@@ -1,10 +1,10 @@
 #title {
-    background: #e6e6c6 url("../img/titulo.jpg") no-repeat ;
+    background: #e6e6c6 url("../imagenes/titulo.jpg") no-repeat ;
 		border-width: 0px;
 }
 
 .dialogo {
-	font-style: italic;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	padding-left: 2em;
 	padding-top: 1.2em;
 	padding-bottom: 1.2em;
@@ -24,7 +24,7 @@
 
 #content a {
   border: 1px dotted black;
-  background-color: rgba( 0,0,0,.2);
+  background-color: rgba(255,117,020);
   color: black;
   font-weight: bold;
   padding: 2px;
