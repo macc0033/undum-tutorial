@@ -30,11 +30,9 @@ undum.game.situations = {
 
 				}
 		),
-
-
+		
 		buenosdias: new undum.SimpleSituation (
 				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre <a href='levantarse'>levantarte </a> o <a href='durmiendo'>quedarte durmiendo</a>, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>"
-
 		),
 		durmiendo: new undum.SimpleSituation(
 			"<img class='img-situation' src='./media/Imagenes/dormir.jpg'>\
@@ -42,11 +40,8 @@ undum.game.situations = {
 			<p>Vuelves a abrir los ojos, te dispones a mirar el reloj y te das cuenta de que son las 15:30 de la tarde, es entonces cuando recuerdas que tenías clase a las 16:30 y por tanto solo te queda la opción de <a href='uja'>ir a la UJA </a> a contrareloj por gustarte demasiado la cama...</p>/"
 		),
 		levantarse: new undum.SimpleSituation(
-			"<p>Aunque no tienes ni idea de qué es una escuela, ni de si se come o no, intentas ser convincente mientras dices:</p>\
-			<p class='dialogo personaje'>- Fijaos que aun frecuentando continuamente las clases de maese Víctor, \
-			diose la circunstancia de que el día que tal explicaron hallábame cuidando de mi lobo huargo.</p>\
-	<p>Ni que decir tiene, que los guardias pasan de ti y vuelven a su quehacer en el castillo.</p>\
-			<p>En fin... <a href='santoysenia'>puedes intentarlo de nuevo</a> o <a href='finalizar'>finalizar la partida</a>.</p>"
+			"<img class='img-situation' src='./media/Imagenes/levantarse.jpg'>\
+<p>Levantarse temprano tiene su ventajas y consecuencias también, ya que puedes aprovechar el dia o estar muy cansado todo el dia, cuando te levantes tienes dos opciones para hacer, o bien <a href='gimnasio'> ir al gimnasio </a> o <a href='practica'> hacer la práctica de desarrollo ágil.</a></p>"
 		),
 		
 		uja: new undum.SimpleSituation(
@@ -56,10 +51,10 @@ undum.game.situations = {
 		),
 
 
-		finalizar: new undum.SimpleSituation(
-			"<h1>Fin de la historia</h1>\
-			<p>Pues así acaba tu historia en Roca Rivasly. Quizá, otro día, con más tiempo, decidas acabarla del todo</p>\
-			<h1>Fin</h1>"
+
+		gimnasio: new undum.SimpleSituation(
+			"<img class='img-situation' src='./media/Imagenes/gimnasio.jpg'>\
+<p>Si llegas muy pronto al gimnasio está cerrado, y te preguntas qué hacer en ese caso, y entonces o <a href='desayunar'> desayunas en el bar </a>vecino del gimnasio o <a href='volver' vuelves a casa </a> cabreado.</a></p>"
 		),
 		patiodearmas: new undum.SimpleSituation(
 			"<h1>El patio de armas</h1>\
