@@ -43,7 +43,18 @@ undum.game.situations = {
 			"<img class='img-situation' src='./media/Imagenes/levantarse.jpg'>\
 <p>Levantarse temprano tiene su ventajas y consecuencias también, ya que puedes aprovechar el dia o estar muy cansado todo el dia, cuando te levantes tienes dos opciones para hacer, o bien <a href='gimnasio'> ir al gimnasio </a> o <a href='practica'> hacer la práctica de desarrollo ágil.</a></p>"
 		),
+
+		gimnasio: new undum.SimpleSituation(
+			"<img class='img-situation' src='./media/Imagenes/gimnasio.jpg'>\
+<p>Si llegas muy pronto al gimnasio está cerrado, y te preguntas qué hacer en ese caso, y entonces o <a href='desayunar'> desayunas en el bar </a>vecino del gimnasio o <a href='volver'> vuelves a casa </a> cabreado.</a></p>"
+		),
+
+		desayunar: new undum.SimpleSituation(
+			"<img class='img-situation' src='./media/Imagenes/desayunar.jpg'>\
+<p>Si desayunas en el bar bien, tendrás más energía para afrontar un entrenamiento de lujo y sentirte bien contigo mismo y estarás contento para después también <a href='practicabuena'>hacer la práctica con ganas.</a></a></p>"
+		),
 		
+
 		uja: new undum.SimpleSituation(
 			"<h1>UJA</h1>\
 			<img class='img-situation' src='./media/Imagenes/universidad.jpg'>\
@@ -55,17 +66,51 @@ undum.game.situations = {
 			<p>Te dispones a sentarte en una mesa del flan, pero mientras subes las escaleras te encuentras a tu compañero de prácticas y resulta que ya tiene la práctica casi hecha, aunque tú te sientes mal, por otro lado te alegras he intentas <a href='practicabuena'>ayudarle en lo que queda de práctica</a>.</p>"
 		),
 
-
-		gimnasio: new undum.SimpleSituation(
-			"<img class='img-situation' src='./media/Imagenes/gimnasio.jpg'>\
-<p>Si llegas muy pronto al gimnasio está cerrado, y te preguntas qué hacer en ese caso, y entonces o <a href='desayunar'> desayunas en el bar </a>vecino del gimnasio o <a href='volver' vuelves a casa </a> cabreado.</a></p>"
+		volver: new undum.SimpleSituation(
+			"<p>Decides volver a casa para ponerte a hacer la práctica de desarrollo ágil cabreado (por ir al gimnasio y encontrarlo cerrado), y por lo tanto haces la <a href='practicamala'> práctica de mala manera</a> y no podrás obtener la nota suficiente para aprobar.</a></p>"
 		),
+
+		practica: new undum.SimpleSituation(
+			"<p>Si decides hacer la práctica recién levantado, no es buena idea ya que tendrás el estómago vacío y no podrás rendir bien para entender a la perfección la práctica, y <a href='practicamala'> se echa el tiempo de entregarla encima</a>.</a></p>"
+		),	
+
+
+
+
+
+
+
+
+
+
+		
+		practicabuena: new undum.SimpleSituation(
+			"<img class='img-situation' src='./media/Imagenes/pulgararriba.jpg'>\
+<p>Finalmente queda un práctica medio decente, de tal forma que le puede gustar a nuestro profesor Victor Manuel Rivas y por ello, decidimos entregarla pese a todas las adversidades del camino.</a></p>"
+		),
+
+		practicamala: new undum.SimpleSituation(
+			"<img class='img-situation' src='./media/Imagenes/pulgarabajo.jpg'>\
+<p>Tras dedicarle un rato a la practica, te das cuenta de que la práctica te está quedando fatal, es en ese momento cuando recuerdas las sabias palabras del profesor Victorcillo de si no está para entregarlo mejor no entregarlo; y por tanto, no acabas entregando nada y frustrado.</a></p>"
+		),
+
 
 		entrar: new undum.SimpleSituation(
 			"<h1>Entras a clase</h1>\
 			<p>Decides entrar a clase, te quedan por delante 5h de clase... después de todo el fin de semana y de llevar tan solo una media hora despierto no te enteras de nada.</p>\
 			<p>Llega última hora y te sacan a la pizarra a un ejercicio que no tienes ni idea para poner el broche final a la tarde.</p>\
 			<p>Llegas a casa e <a href='practicamala'>intentas ponerte con la práctica de Desarrollo ágil</a>.</p>/"
+=======
+	
+
+		patiodearmas: new undum.SimpleSituation(
+			"<h1>El patio de armas</h1>\
+      <img class='img-situation' src='./media/img/patio-armas.jpg'>\
+			<p>Estás dentro del castillo, concretamente en el patio de armas</p>\
+			<p>Los guardias se han quedado más tranquilos al saber que sabes el santo y seña, así que se han ido a dormir... je, je, je...</p>\
+			<p>A tu izquierda, <a href='zonanoble'>puedes acceder a la zona noble del castillo</a>, \
+			mientras a la derecha observas que está <a href='caballerizas'>la entrada a las caballerizas</a>.</p>"
+>>>>>>> continuacion4
 		),
 		zonanoble: new undum.SimpleSituation(
 			"<h1>La zona noble del castillo</h1>\
