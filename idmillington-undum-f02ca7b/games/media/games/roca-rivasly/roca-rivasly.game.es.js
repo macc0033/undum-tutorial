@@ -25,12 +25,12 @@ undum.game.situations = {
 				<p>Acabas de despertarte.</p>",
 				{
 	        enter: function(character, system, from) {
-	            system.doLink('santoysenia');
+	            system.doLink('buenosdias');
 	        }
 
 				}
 		),
-		santoysenia: new undum.SimpleSituation (
+		buenosdias: new undum.SimpleSituation (
 				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre <a href='levantarte'>levantarte </a> o <a href='durmiendo'>quedarte durmiendo</a>, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>"
 		),
 		durmiendo: new undum.SimpleSituation(
