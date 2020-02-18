@@ -1,4 +1,4 @@
-// ---------------------------------------------------------------------------
+﻿// ---------------------------------------------------------------------------
 // Edit this file to define your game. It should have at least four
 // sets of content: undum.game.situations, undum.game.start,
 // undum.game.qualities, and undum.game.init.
@@ -30,15 +30,20 @@ undum.game.situations = {
 
 				}
 		),
+
 		buenosdias: new undum.SimpleSituation (
 				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre <a href='levantarte'>levantarte </a> o <a href='durmiendo'>quedarte durmiendo</a>, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>"
+
+		santoysenia: new undum.SimpleSituation (
+				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre <a href='levantarse'>levantarte </a> o <a href='durmiendo'>quedarte durmiendo</a>, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>"
+
 		),
 		durmiendo: new undum.SimpleSituation(
 			"<img class='img-situation' src='./media/Imagenes/dormir.jpg'>\
 			<p>Quedarse dormido tiene sus consecuencias y sus ventajas, pasamos a discutirlas; como por ejemplo, no poder aprovechar la mañana y tener que hacer más cosas para la tarde, pero claro si estás muy cansado y necesitas dormir, es una ventaja para poder afrontar el día con más fuerza e ir a la Universidad de Jaén (UJA).</p>\
 			<p>Vuelves a abrir los ojos, te dispones a mirar el reloj y te das cuenta de que son las 15:30 de la tarde, es entonces cuando recuerdas que tenías clase a las 16:30 y por tanto solo te queda la opción de <a href='uja'>ir a la UJA </a> a contrareloj por gustarte demasiado la cama...</p>/"
 		),
-		durmi: new undum.SimpleSituation(
+		levantarse: new undum.SimpleSituation(
 			"<p>Aunque no tienes ni idea de qué es una escuela, ni de si se come o no, intentas ser convincente mientras dices:</p>\
 			<p class='dialogo personaje'>- Fijaos que aun frecuentando continuamente las clases de maese Víctor, \
 			diose la circunstancia de que el día que tal explicaron hallábame cuidando de mi lobo huargo.</p>\
