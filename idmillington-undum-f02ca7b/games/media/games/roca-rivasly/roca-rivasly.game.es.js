@@ -31,10 +31,8 @@ undum.game.situations = {
 				}
 		),
 
-		buenosdias: new undum.SimpleSituation (
-				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre <a href='levantarte'>levantarte </a> o <a href='durmiendo'>quedarte durmiendo</a>, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>"
 
-		santoysenia: new undum.SimpleSituation (
+		buenosdias: new undum.SimpleSituation (
 				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre <a href='levantarse'>levantarte </a> o <a href='durmiendo'>quedarte durmiendo</a>, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>"
 
 		),
@@ -50,6 +48,13 @@ undum.game.situations = {
 	<p>Ni que decir tiene, que los guardias pasan de ti y vuelven a su quehacer en el castillo.</p>\
 			<p>En fin... <a href='santoysenia'>puedes intentarlo de nuevo</a> o <a href='finalizar'>finalizar la partida</a>.</p>"
 		),
+		
+		uja: new undum.SimpleSituation(
+			"<h1>UJA</h1>\
+			<img class='img-situation' src='./media/Imagenes/universidad.jpg'>\
+			<p>Una vez te encuentras en la Universidad de Jaén (UJA), te surge la duda de si entrar a clase o sin embargo quedarte en una mesa del A4 puesto recuerdas que tienes que entregar una práctica de la asignatura Desarrollo Ágil y aun falta bastante por hacer.</p>"
+		),
+
 
 		finalizar: new undum.SimpleSituation(
 			"<h1>Fin de la historia</h1>\
