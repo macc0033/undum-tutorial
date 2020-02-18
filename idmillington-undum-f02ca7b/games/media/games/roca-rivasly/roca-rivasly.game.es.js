@@ -21,8 +21,8 @@ jQuery.fx.off=false
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
     start: new undum.SimpleSituation(
-				"<h1>La puerta del castillo</h1>\
-				<p>Acabas de llegar a Roca Casterly.</p>",
+				"<h1>Tu cama</h1>\
+				<p>Acabas de despertarte.</p>",
 				{
 	        enter: function(character, system, from) {
 	            system.doLink('santoysenia');
@@ -31,8 +31,8 @@ undum.game.situations = {
 				}
 		),
 		santoysenia: new undum.SimpleSituation (
-				"<p>El castillo está cerrado a cal y canto... aunque te piden el santo y seña:</p>\
-				<p class='dialogo'>- ¿Cuánto son 3+4?</p>\
+				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre levantarte o quedarte durmiendo, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>\
+				.<p class='dialogo'>- ¿Cuánto son 3+4?</p>\
         <p>Ante tamaña afrenta tu respuesta podría ser  \
         <a href='incorrecta01'>que no te has traido la calculadora</a>, y también que 3+4 <a href='patiodearmas'>suman 7</a> \
 				(a juzgar por los 4 dedos levantados de tu mano derecha y los 3 de la izquierda), \

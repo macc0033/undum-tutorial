@@ -1,6 +1,6 @@
 body {
     background: #162755 url("../Imagenes/fondo.jpg") repeat-x left top;
-    font-family: Palatino, Times, "Times New Roman", serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-size: 18px;
     line-height: 1.6em;
     background-attachment: fixed;
@@ -24,7 +24,7 @@ body {
 }
 #title {
     max-width: 28em;
-    background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
+    background: #e6e6c6 url("../Imagenes/titulo.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
     border: 1.1em solid rgba(0,0,0,0.25);
@@ -32,7 +32,7 @@ body {
 }
 #title .label {
     overflow: hidden;
-    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
+    background: #e6e6c6 url("../Imagenes/tools.jpg") repeat left top;
     padding: 2.0em;
     margin: auto;
     max-width: 18em;
@@ -124,13 +124,13 @@ hr {
 p + p, p + img + p, p + hr + p {
     text-indent: 1.6em;
 }
-#content h1 + p:first-line,
-#content h1 + img + p:first-line {
+#content h1 + p:..first-line,
+#content h1 + img + ..p:first-line {
     font-weight: bold;
     color: rgba(0,0,0,0.85);
 }
-#content h1 + p:first-letter,
-#content h1 + img + p:first-letter {
+#content h1 + p:..first-letter,
+#content h1 + img + p:..first-letter {
     position: relative;
     padding-top: 0.1em;
     display: block;
