@@ -47,22 +47,25 @@ undum.game.situations = {
 		uja: new undum.SimpleSituation(
 			"<h1>UJA</h1>\
 			<img class='img-situation' src='./media/Imagenes/universidad.jpg'>\
-			<p>Una vez te encuentras en la Universidad de Jaén (UJA), te surge la duda de si entrar a clase o sin embargo quedarte en una mesa del A4 puesto recuerdas que tienes que entregar una práctica de la asignatura Desarrollo Ágil y aun falta bastante por hacer.</p>"
+			<p>Una vez te encuentras en la Universidad de Jaén (UJA), te surge la duda de si <a href='entrar'>entrar a clase</a> o sin embargo <a href='noentrar'>quedarte en una mesa del A4</a> puesto recuerdas que tienes que entregar una práctica de la asignatura Desarrollo Ágil y aun falta bastante por hacer.</p>"
 		),
-
+		
+		noentrar: new undum.SimpleSituation(
+			"<h1>Mesa del A4</h1>\
+			<p>Te dispones a sentarte en una mesa del flan, pero mientras subes las escaleras te encuentras a tu compañero de prácticas y resulta que ya tiene la práctica casi hecha, aunque tú te sientes mal, por otro lado te alegras he intentas <a href='practicabuena'>ayudarle en lo que queda de práctica</a>.</p>"
+		),
 
 
 		gimnasio: new undum.SimpleSituation(
 			"<img class='img-situation' src='./media/Imagenes/gimnasio.jpg'>\
 <p>Si llegas muy pronto al gimnasio está cerrado, y te preguntas qué hacer en ese caso, y entonces o <a href='desayunar'> desayunas en el bar </a>vecino del gimnasio o <a href='volver' vuelves a casa </a> cabreado.</a></p>"
 		),
-		patiodearmas: new undum.SimpleSituation(
-			"<h1>El patio de armas</h1>\
-      <img class='img-situation' src='./media/img/patio-armas.jpg'>\
-			<p>Estás dentro del castillo, concretamente en el patio de armas</p>\
-			<p>Los guardias se han quedado más tranquilos al saber que sabes el santo y seña, así que se han ido a dormir... je, je, je...</p>\
-			<p>A tu izquierda, <a href='zonanoble'>puedes acceder a la zona noble del castillo</a>, \
-			mientras a la derecha observas que está <a href='caballerizas'>la entrada a las caballerizas</a>.</p>"
+
+		entrar: new undum.SimpleSituation(
+			"<h1>Entras a clase</h1>\
+			<p>Decides entrar a clase, te quedan por delante 5h de clase... después de todo el fin de semana y de llevar tan solo una media hora despierto no te enteras de nada.</p>\
+			<p>Llega última hora y te sacan a la pizarra a un ejercicio que no tienes ni idea para poner el broche final a la tarde.</p>\
+			<p>Llegas a casa e <a href='practicamala'>intentas ponerte con la práctica de Desarrollo ágil</a>.</p>/"
 		),
 		zonanoble: new undum.SimpleSituation(
 			"<h1>La zona noble del castillo</h1>\
@@ -127,10 +130,9 @@ undum.game.situations = {
 																	system.setCharacterText( "<p>La compañía de Ser Rodrick te hará más agradable el camino...\
 																		 o no, teniendo en cuenta	que murió hace más de 200 años.</p>" );
 																},
-							 	'antorcha': function(character, system, action) {
-															system.setQuality( "antorcha", true );
-															system.setCharacterText("<p>Perfecto. Ahora tienes una antorcha con la que podrás iluminar \
-																						las oscuras estancias de la zona noble</p>");
+							 	'compañero': function(character, system, action) {
+															system.setQuality( "compañero", true );
+									
 														}
 
             }
