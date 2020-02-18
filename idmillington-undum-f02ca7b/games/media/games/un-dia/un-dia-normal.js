@@ -45,8 +45,9 @@ undum.game.situations = {
 		),
 
 		gimnasio: new undum.SimpleSituation(
-			"<img class='img-situation' src='./media/Imagenes/gimnasio.jpg'>\
-<p>Si llegas muy pronto al gimnasio está cerrado, y te preguntas qué hacer en ese caso, y entonces o <a href='desayunar'> desayunas en el bar </a>vecino del gimnasio o <a href='volver'> vuelves a casa </a> cabreado.</a></p>"
+			"<h1>Gimnasio</h1>\
+			<img class='img-situation' src='./media/Imagenes/gimnasio.jpg'>\
+			<p>Si llegas muy pronto al gimnasio está cerrado, y te preguntas qué hacer en ese caso, y entonces o <a href='desayunar'> desayunas en el bar </a>vecino del gimnasio o <a href='volver'> vuelves a casa </a> cabreado.</a></p>"
 		),
 
 		desayunar: new undum.SimpleSituation(
