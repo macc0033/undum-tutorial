@@ -31,21 +31,14 @@ undum.game.situations = {
 				}
 		),
 		santoysenia: new undum.SimpleSituation (
-				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre levantarte o quedarte durmiendo, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>\
-				.<p class='dialogo'>- ¿Cuánto son 3+4?</p>\
-        <p>Ante tamaña afrenta tu respuesta podría ser  \
-        <a href='incorrecta01'>que no te has traido la calculadora</a>, y también que 3+4 <a href='patiodearmas'>suman 7</a> \
-				(a juzgar por los 4 dedos levantados de tu mano derecha y los 3 de la izquierda), \
-				aunque tampoco estaría mal confesar que \
-				<a href='incorrecta02'>aquel día no fuiste a la escuela</a> pues te quedaste cuidando a tu lobo huargo.</p>"
+				"<p>Lunes 17 de mayo de 2020 sobre las 8:30 de la mañana, cuando sonó la alarma,y entonces piensas entre <a href='levantarte'>levantarte </a> o <a href='durmiendo'>quedarte durmiendo</a>, ya que habías tenido un fin de semana ajetreado, y no precisamente de estudiar mucho....</p>"
 		),
-		incorrecta01: new undum.SimpleSituation(
-			"<p>Tras buscar por largo rato entre tus pertenencias, con voz que transmite poca tranquilidad dices a los guardias de la puerta:</p>\
-			<p class='dialogo personaje'>- Fijaos que pertreché mi montura con toda suerte de abalorios, más olvideme el calculatorum...</p>\
-			<p>Ni que decir tiene, que los guardias pasan de ti y vuelven a su quehacer en el castillo.</p>\
-			<p>En fin... <a href='santoysenia'>puedes intentarlo de nuevo</a> o <a href='finalizar'>finalizar la partida</a>.</p>s"
+		durmiendo: new undum.SimpleSituation(
+			"<img class='img-situation' src='./media/Imagenes/dormir.jpg'>\
+			<p>Quedarse dormido tiene sus consecuencias y sus ventajas, pasamos a discutirlas; como por ejemplo, no poder aprovechar la mañana y tener que hacer más cosas para la tarde, pero claro si estás muy cansado y necesitas dormir, es una ventaja para poder afrontar el día con más fuerza e ir a la Universidad de Jaén (UJA).</p>\
+			<p>Vuelves a abrir los ojos, te dispones a mirar el reloj y te das cuenta de que son las 15:30 de la tarde, es entonces cuando recuerdas que tenías clase a las 16:30 y por tanto solo te queda la opción de <a href='uja'>ir a la UJA </a> a contrareloj por gustarte demasiado la cama...</p>/"
 		),
-		incorrecta02: new undum.SimpleSituation(
+		durmi: new undum.SimpleSituation(
 			"<p>Aunque no tienes ni idea de qué es una escuela, ni de si se come o no, intentas ser convincente mientras dices:</p>\
 			<p class='dialogo personaje'>- Fijaos que aun frecuentando continuamente las clases de maese Víctor, \
 			diose la circunstancia de que el día que tal explicaron hallábame cuidando de mi lobo huargo.</p>\
